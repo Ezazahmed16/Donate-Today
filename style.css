@@ -96,6 +96,7 @@ body{
     text-align: center;
     padding: 45px 25px;
     cursor: pointer;
+    transition: all .5s ease-in-out;
 }
 .ammount-selection a:hover{
     background-color: #FFEEEE;
