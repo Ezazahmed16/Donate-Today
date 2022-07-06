@@ -260,6 +260,10 @@ body{
     display: block;
     margin: 30px auto;
 }
+.form{
+    background-color: #FFF4D6;
+    padding: 20px;
+}
 .update-form{
     display: flex;
     width: 60%;
