@@ -115,6 +115,10 @@ body{
     border: none;
     border-bottom: 2px solid #DADADA;
     width: 100%;
+    outline: none;
+}
+.donate-toDay input:active{
+    outline: none;
 }
 
 /* Our Donation Plan */
