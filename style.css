@@ -29,9 +29,10 @@ body{
 #banner{
     width: 100%;
     height: 100vh;
-    background-image: url("images/banner.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.3 ), rgba(0,0,0.0)),url(images/banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    
 }
 .banner{
     width: 80%;
@@ -55,7 +56,6 @@ body{
     line-height: 28px;
     text-align: center;
     color: #FFFFFF;
-    font-weight: bold;
     margin-top: 10px;
 }
 
@@ -96,12 +96,16 @@ body{
     text-align: center;
     padding: 45px 25px;
     cursor: pointer;
-    transition: all .5s ease-in-out;
+    /* transition: all .5s ease-in-out; */
 }
-.ammount-selection a:hover{
+.ammount-selection .default-clr {
     background-color: #FFEEEE;
     border: 2px solid #FF5959;
 }
+/* .ammount-selection a:hover{
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+} */
 .donate-toDay input{
     font-size: 18px;
     text-align: center;
